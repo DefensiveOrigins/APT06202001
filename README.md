@@ -83,4 +83,6 @@ Once this is built out, you will be ready to follow along. Again, this infrastru
 
 In summary, install a few VMs, or just join us to follow along in the fun. In four hours, you will go from a rookie event handler to a chiseled veteran with experience beyond your years. Generated events will propagate in a meaningful way, PowerShell, CMD executions, tooling of all sorts, and if time allows, we may even get to look through the Elastic dashboards and see some more of the real power behind this build.
 
+Copyright - All Rights Reserved, Defensive Origins LLC
+
 
