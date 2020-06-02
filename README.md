@@ -5,7 +5,7 @@
 
 June 6, 2020
 
-![](https://raw.githubusercontent.com/DefensiveOrigins/APT06202001/master/docs/images/EZRMAZUXYAAj-JD.jpg)
+![](https://github.com/DefensiveOrigins/dolib-images/raw/master/doc/images/APT06202001/EZRMAZUXYAAj-JD.jpg)
 
 <div style='page-break-after: always'></div>
 
