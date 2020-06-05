@@ -25,6 +25,6 @@ Copyright - All Rights Reserved, Defensive Origins LLC
 
   [1]: CourseInformation.md
   [2]: Lab-DomainBuildScripts
-  [3]: Lab-GPOs\
+  [3]: Lab-GPOs
   [4]: Lab-Sysmon
-  [5]: Lab-WinLogBeat\
+  [5]: Lab-WinLogBeat
