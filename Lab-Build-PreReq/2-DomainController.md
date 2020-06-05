@@ -6,6 +6,23 @@ June 6, 2020
 
 ![](https://github.com/DefensiveOrigins/dolib-images/raw/master/doc/images/APT06202001/EZRMAZUXYAAj-JD.jpg)
 
+<!-- Start Document Outline -->
+
+* [Lab Virtual Machine: Windows 2016 - Domain Controller](#lab-virtual-machine-windows-2016---domain-controller)
+	* [ISO Download](#iso-download)
+	* [System Resources (Suggested)](#system-resources-suggested)
+	* [Network](#network)
+	* [Setup Instructions](#setup-instructions)
+		* [OS Install](#os-install)
+		* [Network Configuration](#network-configuration)
+		* [Build Scripts](#build-scripts)
+		* [Build Active Directory Objects](#build-active-directory-objects)
+			* [Option 1: ADDS-Step4](#option-1-adds-step4)
+			* [Option 2: BadBlood](#option-2-badblood)
+		* [DNS Configuration (PFsense)](#dns-configuration-pfsense)
+
+<!-- End Document Outline -->
+
 # Lab Virtual Machine: Windows 2016 - Domain Controller
 The Wndows 2016 server will be the Domain Controller for the lab environment.
 

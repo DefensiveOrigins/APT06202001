@@ -6,7 +6,15 @@
 June 6, 2020
 
 ![](https://github.com/DefensiveOrigins/dolib-images/raw/master/doc/images/APT06202001/EZRMAZUXYAAj-JD.jpg)
- # Training
+
+<!-- Start Document Outline -->
+
+* [Training](#training)
+* [Course Content](#course-content)
+
+<!-- End Document Outline -->
+
+ # Training Schedule
 
 | Event                                    | Date                               | Cost                                     | Registration                             |
 |------------------------------------------|------------------------------------|------------------------------------------|------------------------------------------|
@@ -14,7 +22,6 @@ June 6, 2020
 | Applied Purple Teaming<br>3 day course, 5.5 hrs per day.<br> | June 30th - July 2nd 2020              | $395<br>Sponsored by [BHIS](https://www.blackhillsinfosec.com/) | To be announced.     |
 
 # Course Content
-
 
 
 | Component               | Information                              |

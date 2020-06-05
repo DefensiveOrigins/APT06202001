@@ -6,9 +6,18 @@ June 6, 2020
 
 ![](https://github.com/DefensiveOrigins/dolib-images/raw/master/doc/images/APT06202001/EZRMAZUXYAAj-JD.jpg)
 
-[//]: # (TOC Begin)
+<!-- Start Document Outline -->
 
-[//]: # (TOC End)
+* [Virtual Machine: Ubuntu 18.04 Hunt/SIEM](#virtual-machine-ubuntu-1804-huntsiem)
+	* [ISO Download](#iso-download)
+	* [System Resources (Suggested)](#system-resources-suggested)
+	* [Network](#network)
+	* [OS Installation](#os-installation)
+	* [Network Confirmation](#network-confirmation)
+	* [Download GIT and the HELK Git Repo](#download-git-and-the-helk-git-repo)
+		* [Setup HELK](#setup-helk)
+
+<!-- End Document Outline -->
 
 
 # Virtual Machine: Ubuntu 18.04 Hunt/SIEM 

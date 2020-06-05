@@ -6,6 +6,14 @@ June 6, 2020
 
 ![](https://github.com/DefensiveOrigins/dolib-images/raw/master/doc/images/APT06202001/EZRMAZUXYAAj-JD.jpg)
 
+<!-- Start Document Outline -->
+
+* [Optional Lab Pre-Requisite Build Information](#optional-lab-pre-requisite-build-information)
+	* [Virtual Machines](#virtual-machines)
+	* [Lab Network Map](#lab-network-map)
+
+<!-- End Document Outline -->
+
 # Optional Lab Pre-Requisite Build Information
 
 There are some significant prerequisites. Be warned. Feel free to attend for the learning experience, this will include a complete walk through from a basic domain to a fully optic'd detection lab in these precious few hours. However, for full impact, be prepared to consume 6 CPUs, 20GB of RAM and about 120GB of disk space. It would be best to deploy a PFSense router on your virtual environment and a secondary, isolated network that is routed by the PFSense for the course VMs.
@@ -15,7 +23,7 @@ To participate in the labs during class, the creation of an optional lab environ
 ## Virtual Machines
 | Virtual Machine                          | Recommended Resources                    | Network Configuration                    |
 |------------------------------------------|------------------------------------------|------------------------------------------|
-| PFSense VM (Optional, Recommended)<br><br>[Build Instructions][1] | 1 vCPU<br>4GB RAM<br>20GB disk<br>[ISO](https://atxfiles.pfsense.org/mirror/downloads/pfSense-CE-2.4.5-RELEASE-amd64.iso.gz) or [PFsense Website][2] | WAN: DHCP<br>LAN: 10.10.98.1/24<br>+ DHCP Service |
+| PFSense VM (Optional, Recommended)<br><br>[Build Instructions][1] | 1 vCPU<br>1GB RAM<br>20GB disk<br>[ISO](https://atxfiles.pfsense.org/mirror/downloads/pfSense-CE-2.4.5-RELEASE-amd64.iso.gz) or [PFsense Website][2] | WAN: DHCP<br>LAN: 10.10.98.1/24<br>+ DHCP Service |
 | Windows 2016 Server<br><br>[Build Instructions][3] | 1 vCPU (2 is better)<br>4GB RAM (more is better)<br>32GB disk<br>[Eval Download][4] | 10.10.98.10/24<br>DNS: 127.0.0.1<br>DNS2: 1.1.1.1 |
 | Windows 10 Workstation<br><br>[Build Instructions][5] | 1 vCPU (2 is better)<br>4GB RAM (more is better)<br>32GB disk<br>[Installation Media Tool][6] | Domain Joined<br>DHCP                    |
 | SIEM / Hunt / Ubuntu 18.04<br><br>[Build Instructions][7] | 2 vCPUs<br>8GB RAM<br>32GB disk<br> [ISO][8] or [Ubuntu Website][9]          | 10.10.98.20/24<br>DNS: 10.10.98.10<br>DNS2: 1.1.1.1 |

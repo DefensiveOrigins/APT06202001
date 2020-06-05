@@ -6,10 +6,17 @@ June 6, 2020
 
 ![](https://github.com/DefensiveOrigins/dolib-images/raw/master/doc/images/APT06202001/EZRMAZUXYAAj-JD.jpg)
 
-[//]: # (TOC Begin)
+<!-- Start Document Outline -->
 
-[//]: # (TOC End)
+* [Lab Virtual Machine: Windows 10 Workstation](#lab-virtual-machine-windows-10-workstation)
+	* [ISO Download](#iso-download)
+	* [System Resources (Suggested)](#system-resources-suggested)
+	* [Network](#network)
+	* [OS Installation](#os-installation)
+		* [Step One, Network Setup and Review:](#step-one-network-setup-and-review)
+		* [Step 2: Join to Domain](#step-2-join-to-domain)
 
+<!-- End Document Outline -->
 # Lab Virtual Machine: Windows 10 Workstation
 Install Server 2016 or Windows 10, whichever is fine. Installing Server 2016 in evaluation mode will give you 180 of trial version licensing. Do not trifle with Microsoft Licensing. It is not supported, recommended, or in any way appropriate.  
 
@@ -30,14 +37,14 @@ LAN - DHCP (PFSense LAN Network)
 ## OS Installation
 Install Windows 10 (or 2016 if you choose)
 
-### Step One, Network Setup and Review:
+### Network Setup and Review
 Configure DHCP and confirm you received an address from the PFSense LAN network.
 ```dos
 cmd c:\> ipconfig /renew
 ```
 ![](images/3-Workstation1.png)
 
-### Step 2: Join to Domain
+### Join to Domain
 Join it to the lab.internal.local domain. 
 ![](images/3-Workstation2.png)
 
