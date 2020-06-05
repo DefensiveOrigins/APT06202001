@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<instrumentationManifest xsi:schemaLocation="http://schemas.microsoft.com/win/2004/08/events eventman.xsd" xmlns="http://schemas.microsoft.com/win/2004/08/events" xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:trace="http://schemas.microsoft.com/win/2004/08/events/trace">
+	<instrumentation>
+		<events>
+			<provider name="WEC" guid="{17A89D9F-61D2-4066-9085-B974FDD1EA00}" symbol="WEC_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C1"></importChannel>
+					<channel name="WEC-Powershell" chid="WEC-Powershell" symbol="WEC_Powershell" type="Operational" enabled="true"></channel>
+					<channel name="WEC-WMI" chid="WEC-WMI" symbol="WEC_WMI" type="Operational" enabled="true"></channel>
+					<channel name="WEC-EMET" chid="WEC-EMET" symbol="WEC_EMET" type="Operational" enabled="true"></channel>
+					<channel name="WEC-Authentication" chid="WEC-Authentication" symbol="WEC_Authentication" type="Operational" enabled="true"></channel>
+					<channel name="WEC-Services" chid="WEC-Services" symbol="WEC_Services" type="Operational" enabled="true"></channel>
+					<channel name="WEC-Process-Execution" chid="WEC-Process-Execution" symbol="WEC_Process_Execution" type="Operational" enabled="true"></channel>
+					<channel name="WEC-Code-Integrity" chid="WEC-Code-Integrity" symbol="WEC_Code_Integrity" type="Operational" enabled="true"></channel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC2" guid="{C743AE12-C221-452C-A48C-FEF1EE6882C0}" symbol="WEC2_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C2"></importChannel>
+					<channel name="WEC2-Registry" chid="WEC2-Registry" symbol="WEC2_Registry" type="Operational" enabled="true"></channel>
+					<channel name="WEC2-Applocker" chid="WEC2-Applocker" symbol="WEC2_Applocker" type="Operational" enabled="true"></channel>
+					<channel name="WEC2-Task-Scheduler" chid="WEC2-Task-Scheduler" symbol="WEC2_Task_Scheduler" type="Operational" enabled="true"></channel>
+					<channel name="WEC2-Application-Crashes" chid="WEC2-Application-Crashes" symbol="WEC2_Application_Crashes" type="Operational" enabled="true"></channel>
+					<channel name="WEC2-Windows-Defender" chid="WEC2-Windows-Defender" symbol="WEC2_Windows_Defender" type="Operational" enabled="true"></channel>
+					<channel name="WEC2-Group-Policy-Errors" chid="WEC2-Group-Policy-Errors" symbol="WEC2_Group_Policy_Errors" type="Operational" enabled="true"></channel>
+					<channel name="WEC2-Object-Manipulation" chid="WEC2-Object-Manipulation" symbol="WEC2_Object_Manipulation" type="Operational" enabled="true"></channel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC3" guid="{1E66E2D0-4835-4CC9-AA1D-FE12F0F4B509}" symbol="WEC3_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C3"></importChannel>
+					<channel name="WEC3-Drivers" chid="WEC3-Drivers" symbol="WEC3_Drivers" type="Operational" enabled="true"></channel>
+					<channel name="WEC3-Account-Management" chid="WEC3-Account-Management" symbol="WEC3_Account_Management" type="Operational" enabled="true"></channel>
+					<channel name="WEC3-Windows-Diagnostics" chid="WEC3-Windows-Diagnostics" symbol="WEC3_Windows_Diagnostics" type="Operational" enabled="true"></channel>
+					<channel name="WEC3-Smart-Card" chid="WEC3-Smart-Card" symbol="WEC3_Smart_Card" type="Operational" enabled="true"></channel>
+					<channel name="WEC3-Print" chid="WEC3-Print" symbol="WEC3_Print" type="Operational" enabled="true"></channel>
+					<channel name="WEC3-Firewall" chid="WEC3-Firewall" symbol="WEC3_Firewall" type="Operational" enabled="true"></channel>
+					<channel name="WEC3-External-Devices" chid="WEC3-External-Devices" symbol="WEC3_External_devices" type="Operational" enabled="true"></channel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC4" guid="{B16A2012-947A-424A-987C-B89D6D364FAA}" symbol="WEC4_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C4"></importChannel>
+					<channel name="WEC4-Wireless" chid="WEC4-Wireless" symbol="WEC4_Wireless" type="Operational" enabled="true"></channel>
+					<channel name="WEC4-Shares" chid="WEC4-Shares" symbol="WEC4_Shares" type="Operational" enabled="true"></channel>
+					<channel name="WEC4-Bits-Client" chid="WEC4-Bits-Client" symbol="WEC4_Bits_Client" type="Operational" enabled="true"></channel>
+					<channel name="WEC4-Windows-Updates" chid="WEC4-Windows-Updates" symbol="WEC4_Windows_Updates" type="Operational" enabled="true"></channel>
+					<channel name="WEC4-Hotpatching-Errors" chid="WEC4-Hotpatching-Errors" symbol="WEC4_Hotpatching_Errors" type="Operational" enabled="true"></channel>
+					<channel name="WEC4-DNS" chid="WEC4-DNS" symbol="WEC4_DNS" type="Operational" enabled="true"></channel>
+					<channel name="WEC4-System-Time-Change" chid="WEC4-System-Time-Change" symbol="WEC4_System_Time_Change" type="Operational" enabled="true"></channel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC5" guid="{87D435A6-ED4F-45BC-B602-A0D882F2D60C}" symbol="WEC5_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C5"></importChannel>
+					<channel name="WEC5-Operating-System" chid="WEC5-Operating-System" symbol="WEC5_Operating_System" type="Operational" enabled="true"></channel>
+					<channel name="WEC5-Certificate-Authority" chid="WEC5-Certificate-Authority" symbol="WEC5_Certificate_Authority" type="Operational" enabled="true"></channel>
+					<channel name="WEC5-Crypto-API" chid="WEC5-Crypto-API" symbol="WEC5_Crypto_API" type="Operational" enabled="true"></channel>
+					<channel name="WEC5-MSI-Packages" chid="WEC5-MSI-Packages" symbol="WEC5_MSI_Packages" type="Operational" enabled="true"></channel>
+					<channel name="WEC5-Log-Deletion-Security" chid="WEC5-Log-Deletion-Security" symbol="WEC5_Log_Deletion_Security" type="Operational" enabled="true"></channel>
+					<channel name="WEC5-Log-Deletion-System" chid="WEC5-Log-Deletion-System" symbol="WEC5_Log_Deletion_System" type="Operational" enabled="true"></channel>
+					<channel name="WEC5-Autoruns" chid="WEC5-Autoruns" symbol="WEC5_Autoruns" type="Operational" enabled="true"></channel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC6" guid="{2AA88F33-BB49-4AF4-B502-FAF88523361E}" symbol="WEC6_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C6"></importChannel>
+					<channel name="WEC6-Software-Restriction-Policies" chid="WEC6-Software-Restriction-Policies" symbol="WEC6_Software_Restriction_Policies" type="Operational" enabled="true"></channel>
+					<channel name="WEC6-ADFS" chid="WEC6-ADFS" symbol="WEC6_ADFS" type="Operational" enabled="true"></channel>
+					<channel name="WEC6-Device-Guard" chid="WEC6-Device-Guard" symbol="WEC6_Device_Guard" type="Operational" enabled="true"></channel>
+					<channel name="WEC6-Duo-Security" chid="WEC6-Duo-Security" symbol="WEC6_Duo_Security" type="Operational" enabled="true"></channel>
+					<channel name="WEC6-Microsoft-Office" chid="WEC6-Microsoft-Office" symbol="WEC6_Microsoft_Office" type="Operational" enabled="true"></channel>
+					<channel name="WEC6-Exploit-Guard" chid="WEC6-Exploit-Guard" symbol="WEC6_Exploit_Guard" type="Operational" enabled="true"></channel>
+					<channel name="WEC6-Sysmon" chid="WEC6-Sysmon" symbol="WEC6_Sysmon" type="Operational" enabled="true"></channel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC7" guid="{0593175A-3838-4F4E-ABF2-BB9DD7E1D4B2}" symbol="WEC7_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C7"></importChannel>
+					<channel name="WEC7-Active-Directory" chid="WEC7-Active-Directory" symbol="WEC7_Active_Directory" type="Operational" enabled="true"></channel>
+					<channel name="WEC7-Terminal-Services" chid="WEC7-Terminal-Services" symbol="WEC7_Terminal_Services" type="Operational" enabled="true"></channel>
+					<channel name="WEC7-Privilege-Use" chid="WEC7-Privilege-Use" symbol="WEC7_Privilege_Use" type="Operational" enabled="true"></channel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC8" guid="{37E559A5-3E9D-44CE-B8F8-43031416238D}" symbol="WEC8_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C8"></importChannel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC9" guid="{E98B5624-2666-4110-BB76-3FC6F0101C59}" symbol="WEC9_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C9"></importChannel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC10" guid="{77BD886F-C107-4331-9DB8-B32A1D0B67ED}" symbol="WEC10_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C10"></importChannel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC11" guid="{16198C10-2A57-4843-A710-1D4E00B871A3}" symbol="WEC11_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C11"></importChannel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC12" guid="{A0FBA27D-117C-4E09-A199-B28718E898D2}" symbol="WEC12_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C12"></importChannel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC13" guid="{6844DF0C-9F46-4293-960A-4D7DDB2FDFF3}" symbol="WEC13_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C13"></importChannel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC14" guid="{0A648014-75BD-4CE4-9258-ACCE11ABB985}" symbol="WEC14_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C14"></importChannel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC15" guid="{27156411-2F96-486C-83A4-A43958654C70}" symbol="WEC15_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C15"></importChannel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+			<provider name="WEC16" guid="{27265CB0-6637-40B4-8842-E25210D38660}" symbol="WEC16_EVENTS" resourceFileName="C:\Windows\system32\CustomEventChannels.dll" messageFileName="c:\Windows\system32\CustomEventChannels.dll">
+				<events>
+					<event symbol="DUMMY_EVENT" value="100" version="0" template="DUMMY_TEMPLATE" message="$(string.Custom Forwarded Events.event.100.message)"></event>
+				</events>
+				<channels>
+					<importChannel name="System" chid="C16"></importChannel>
+					<channel name="WEC16-Test" chid="WEC16-Test" symbol="WEC16_Test" type="Operational" enabled="true"></channel>
+				</channels>
+				<templates>
+					<template tid="DUMMY_TEMPLATE">
+						<data name="Prop_UnicodeString" inType="win:UnicodeString" outType="xs:string"></data>
+						<data name="PropUInt32" inType="win:UInt32" outType="xs:unsignedInt"></data>
+					</template>
+				</templates>
+			</provider>
+		</events>
+	</instrumentation>
+	<localization>
+		<resources culture="en-US">
+			<stringTable>
+				<string id="level.Informational" value="Information"></string>
+				<string id="channel.System" value="System"></string>
+				<string id="Publisher.EventMessage" value="Prop_UnicodeString=%1;%n&#xA;                  Prop_UInt32=%2;%n"></string>
+				<string id="Custom Forwarded Events.event.100.message" value="Prop_UnicodeString=%1;%n&#xA;                  Prop_UInt32=%2;%n"></string>
+			</stringTable>
+		</resources>
+	</localization>
+</instrumentationManifest>
