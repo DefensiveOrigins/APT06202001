@@ -29,5 +29,5 @@ Due to licensing restrictions we are unable to host the ISO or a OVA/OVF copy of
 * [PFSense on VMware Installation Instructions][3]
 
   [1]: https://atxfiles.pfsense.org/mirror/downloads/pfSense-CE-2.4.5-RELEASE-amd64.iso.gz
-  [2]: https://atxfiles.pfsense.org/mirror/downloads/pfSense-CE-2.4.5-RELEASE-amd64.iso.gz
+  [2]: https://www.pfsense.org/download/
   [3]: https://docs.netgate.com/pfsense/en/latest/virtualization/virtualizing-pfsense-with-vmware-vsphere-esxi.html
