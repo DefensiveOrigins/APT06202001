@@ -16,8 +16,8 @@ June 6, 2020
 | [DomainBuildScripts][2]              | Additional information on building the optional lab<br>Master: [DefensiveOrigins/DomainBuildScripts](https://github.com/DefensiveOrigins/DomainBuildScripts) |
 | [Lab-GPOs][3]                        | These are GPOs that are imported into the lab environment |
 | [Lab-Sysmon][4]                      | Sysmon batch file.  Note: Due to licensing, it is not possible to include sysmon in the APT repository.  Download Sysmon binaries here: [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)  - [ZIP](https://download.sysinternals.com/files/Sysmon.zip) |
-| [Lab-WEF-Palantir](Lab-WEF-Palantir) | WEF configuration static repo for APT.  <br>Master: [palantir/windows-event-forwarding](https://github.com/palantir/windows-event-forwarding) |
-| [Lab-WinLogBeat][5]                  | WinLogBeat configuration file for lab. <br> Note: Due to licensing, it is not possible to include WinLogBeat in the APT repository.  Download WinLogBeat binaries here: [WinLogBeats](https://www.elastic.co/downloads/beats/winlogbeat) |
+| [Lab-WEF-Palantir][5] | WEF configuration static repo for APT.  <br>Master: [palantir/windows-event-forwarding](https://github.com/palantir/windows-event-forwarding) |
+| [Lab-WinLogBeat][6]                  | WinLogBeat configuration file for lab. <br> Note: Due to licensing, it is not possible to include WinLogBeat in the APT repository.  Download WinLogBeat binaries here: [WinLogBeats](https://www.elastic.co/downloads/beats/winlogbeat) |
 | Course Content                       | Will be posted soon!                     |
 
 
@@ -27,4 +27,5 @@ Copyright - All Rights Reserved, Defensive Origins LLC
   [2]: Lab-DomainBuildScripts
   [3]: Lab-GPOs
   [4]: Lab-Sysmon
-  [5]: Lab-WinLogBeat
+  [5]: Lab-WEF-Palantir
+  [6]: Lab-WinLogBeat
