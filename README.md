@@ -6,7 +6,14 @@
 June 6, 2020
 
 ![](https://github.com/DefensiveOrigins/dolib-images/raw/master/doc/images/APT06202001/EZRMAZUXYAAj-JD.jpg)
+ # Training
 
+| Event                                    | Date                               | Cost                                     | Registration                             |
+|------------------------------------------|------------------------------------|------------------------------------------|------------------------------------------|
+| Applied Purple Teaming: Infrastructure, Threat Optics, and Continuous Improvement (4 hrs) <P>[Course Information][1]| Saturday June 6, 2020 <br>11AM-4PM EDT | **FREE!**<br>Sponsored by [BHIS](https://www.blackhillsinfosec.com/) | [Register](https://register.gotowebinar.com/register/7632358227918317070?source=kidogh) |
+| Applied Purple Teaming<br>3 day course, 5.5 hrs per day.<br> | June 30th - July 2nd 2020              | $395<br>Sponsored by [BHIS](https://www.blackhillsinfosec.com/) | To be announced.     |
+
+# Course Content
 
 
 
