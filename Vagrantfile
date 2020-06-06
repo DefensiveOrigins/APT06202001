@@ -43,6 +43,10 @@ Vagrant.configure("2") do |config|
       vb.customize ["modifyvm", :id, "--vrdemulticon", "on"]
     end
     server.vm.network "private_network", ip: "10.10.98.10"
+    server.vm.provision 'shell', path: 'Lab-DomainBuildScripts/ADDS-Step1-Initials.ps1', privileged: true
+    server.vm.provision 'shell', path: 'Lab-DomainBuildScripts/ADDS-Step2-PreReqs.ps1', privileged: true
+    server.vm.provision 'shell', path: 'Lab-DomainBuildScripts/ADDS-Step3-Forest.ps1', privileged: true
+    server.vm.provision 'shell', path: 'Lab-DomainBuildScripts/ADDS-Step4-AddUsers.ps1', privileged: true
   end
 
   config.vm.define "workstation" do |workstation|
