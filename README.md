@@ -33,11 +33,11 @@ Upcoming BHIS & WWHF sponsored Training: https://wildwesthackinfest.com/online-t
 | Section                                  | Link                |
 |------------------------------------------|---------------------|
 | APT: Infrastructure, Threat Optics, Continuous Improvement<br>Book | [PDF][10]  |
-| C0100-1: APT Course Introduction         | [PDF][11] - [HTML5][12] |
-| C0310-1: Event Baselines and Sysmon      | [PDF][13] - [HTML5][14]  |
-| C0320-1: Event Handlers and Subscriptions | [PDF][15] - [HTML5][16]  |
-| C0330-1: Log Shipping and Event Ingests  | [PDF][17] - [HTML5][18]  |
-| C0150-1: Applied Purple Team Lifecycle / Continuous Improvement | [PDF][19] - [HTML5][20]  |
+| C0100-1: APT Course Introduction         | [PDF][11]  |
+| C0310-1: Event Baselines and Sysmon      | [PDF][13]  |
+| C0320-1: Event Handlers and Subscriptions | [PDF][15]  |
+| C0330-1: Log Shipping and Event Ingests  | [PDF][17]   |
+| C0150-1: Applied Purple Team Lifecycle / Continuous Improvement | [PDF][19]  |
 
 
 # Course Content
