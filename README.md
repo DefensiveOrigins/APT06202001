@@ -27,30 +27,30 @@ Upcoming BHIS & WWHF sponsored Training: https://wildwesthackinfest.com/online-t
 | Event                                    | Date                                   | Cost                                     | Registration                             |
 |------------------------------------------|----------------------------------------|------------------------------------------|------------------------------------------|
 | **Applied Purple Teaming**: Infrastructure, Threat Optics, and Continuous Improvement (4 hrs) <P>*[Self Hosted Labs Environment][1]* | Saturday June 6, 2020 <br>11AM-4PM EDT | **FREE!**<p>Sponsored by [BHIS][2] & [WWHF][3]| [Register][4]  <P> [Course Information][5] 
-| **Applied Purple Teaming**<br>Full three day course, 5.5 hrs per day.<P><br>**Defensive Origins Hosted Lab Environment** | June 30th - July 2nd 2020              | $395<p>Sponsored by [BHIS][6] & [WWHF][7] | [Register][8] <P>[Course Information][10]  |
+| **Applied Purple Teaming**<br>Full three day course, 5.5 hrs per day.<P><br>**Defensive Origins Hosted Lab Environment** | June 30th - July 2nd 2020              | $395<p>Sponsored by [BHIS][6] & [WWHF][7] | [Register][8] <P>[Course Information][9]  |
 
 # Courseware
 | Section                                  | Link                |
 |------------------------------------------|---------------------|
-| APT: Infrastructure, Threat Optics, Continious Improvement<br>Book | PDF - Posting Soon. |
-| C0100-1: APT Course Introduction         | HTML5 |
-| C0300-1: Event Baselines and Sysmon      | HTML5  |
-| C0320-1: Event Handlers and Subscriptions | HTML5  |
-| C0330-1: Log Shipping and Event Ingests  | HTML5  |
-| C0150-1: Applied Purple Team Lifecycle / Continious Improvement | HTML5  |
+| APT: Infrastructure, Threat Optics, Continuous Improvement<br>Book | [PDF][10]  |
+| C0100-1: APT Course Introduction         | [PDF][11] - [HTML5][12] |
+| C0310-1: Event Baselines and Sysmon      | [PDF][13] - [HTML5][14]  |
+| C0320-1: Event Handlers and Subscriptions | [PDF][13] - [HTML5][16]  |
+| C0330-1: Log Shipping and Event Ingests  | [PDF][13] - [HTML5][18]  |
+| C0150-1: Applied Purple Team Lifecycle / Continuous Improvement | [PDF][19] - [HTML5][20]  |
 
 
 # Course Content
 
 | Component                                | Information                              |
 |------------------------------------------|------------------------------------------|
-| [Course Information][10]                  | Course Abstract, Objectives, Schedule    |
-| [Lab-Build-PreReq][11]                    | **Optional Pre-Req Lab** <p> This includes instructions on setting up the optional lab-environment. If you wish to complete the labs during class, have the lab Pre-Reqs completed before class starts. |
-| [DomainBuildScripts][12]                  | **Optional Pre-Req Lab Domain Scripts** <p> Additional information on building the optional lab<br>Master: [DefensiveOrigins/DomainBuildScripts](https://github.com/DefensiveOrigins/DomainBuildScripts) |
-| [Lab-GPOs][13]                            | **This section will be covered in class.**<br>These are GPOs that are imported into the lab environment |
-| [Lab-Sysmon][14]<br><br>Sysmon Batch Fule<br>sysmon-modular | **This section will be covered in class**.<br>Sysmon batch (bat) file.<BR>  Note: Due to licensing, it is not possible to include sysmon in the APT repository.  Download Sysmon binaries here: [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)  - [ZIP](https://download.sysinternals.com/files/Sysmon.zip)<P>Sysmon-Modular (olafhartong) - [GIT](https://github.com/olafhartong/sysmon-modular) (included) |
-| [Lab-WEF-Palantir][15]                    | **This section will be covered in class.**<br>WEF configuration static repo for APT.  <br>Master: [palantir/windows-event-forwarding](https://github.com/palantir/windows-event-forwarding) |
-| [Lab-WinLogBeat][16]                     | **This section will be covered in class.**<br>WinLogBeat configuration file for lab. <br> Note: Due to licensing, it is not possible to include WinLogBeat in the APT repository.  Download WinLogBeat binaries here: [WinLogBeats](https://www.elastic.co/downloads/beats/winlogbeat) |
+| [Course Information][9]                  | Course Abstract, Objectives, Schedule    |
+| [Lab-Build-PreReq][22]                    | **Optional Pre-Req Lab** <p> This includes instructions on setting up the optional lab-environment. If you wish to complete the labs during class, have the lab Pre-Reqs completed before class starts. |
+| [DomainBuildScripts][23]                  | **Optional Pre-Req Lab Domain Scripts** <p> Additional information on building the optional lab<br>Master: [DefensiveOrigins/DomainBuildScripts](https://github.com/DefensiveOrigins/DomainBuildScripts) |
+| [Lab-GPOs][24]                            | **This section will be covered in class.**<br>These are GPOs that are imported into the lab environment |
+| [Lab-Sysmon][25]<br><br>Sysmon Batch Fule<br>sysmon-modular | **This section will be covered in class**.<br>Sysmon batch (bat) file.<BR>  Note: Due to licensing, it is not possible to include sysmon in the APT repository.  Download Sysmon binaries here: [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)  - [ZIP](https://download.sysinternals.com/files/Sysmon.zip)<P>Sysmon-Modular (olafhartong) - [GIT](https://github.com/olafhartong/sysmon-modular) (included) |
+| [Lab-WEF-Palantir][26]                    | **This section will be covered in class.**<br>WEF configuration static repo for APT.  <br>Master: [palantir/windows-event-forwarding](https://github.com/palantir/windows-event-forwarding) |
+| [Lab-WinLogBeat][27]                     | **This section will be covered in class.**<br>WinLogBeat configuration file for lab. <br> Note: Due to licensing, it is not possible to include WinLogBeat in the APT repository.  Download WinLogBeat binaries here: [WinLogBeats](https://www.elastic.co/downloads/beats/winlogbeat) |
 
 
 
@@ -64,11 +64,22 @@ Copyright - All Rights Reserved, Defensive Origins LLC
   [6]: https://www.blackhillsinfosec.com/
   [7]: https://wildwesthackinfest.com/
   [8]: https://wildwesthackinfest.com/online-training/applied-purple-teaming/
-  [9]: https://wildwesthackinfest.com/online-training/applied-purple-teaming/
-  [10]: CourseInformation.md
-  [11]: Lab-Build-PreReq
-  [12]: Lab-DomainBuildScripts
-  [13]: Lab-GPOs
-  [14]: Lab-Sysmon
-  [15]: Lab-WEF-Palantir
-  [16]: Lab-WinLogBeat
+  [9]: CourseInformation.md
+  [10]: https://github.com/DefensiveOrigins/APT06202001/blob/master/Courseware/AppliedPurpleTeaming-4Hr-June62020.pdf
+  [11]: https://github.com/DefensiveOrigins/APT06202001/blob/master/Courseware/C0100%20-%20Applied%20Purple%20Team%20Course.pdf
+  [12]: https://github.com/DefensiveOrigins/APT06202001/raw/master/Courseware/C0100%20-%20Applied%20Purple%20Team%20Course.html
+  [13]: https://github.com/DefensiveOrigins/APT06202001/blob/master/Courseware/C0330%20-%20Log%20Shipping%20and%20Ingestors.pdf
+  [14]: https://github.com/DefensiveOrigins/APT06202001/raw/master/Courseware/C0310%20-%20Sysmon%20Optics.html
+  [15]: https://github.com/DefensiveOrigins/APT06202001/blob/master/Courseware/C0330%20-%20Log%20Shipping%20and%20Ingestors.pdf
+  [16]: https://github.com/DefensiveOrigins/APT06202001/raw/master/Courseware/C0320%20-%20Event%20Handlers%2C%20Channels%2C%20and%20Subscriptions.html
+  [17]: https://github.com/DefensiveOrigins/APT06202001/blob/master/Courseware/C0330%20-%20Log%20Shipping%20and%20Ingestors.pdf
+  [18]: https://github.com/DefensiveOrigins/APT06202001/raw/master/Courseware/C0330%20-%20Log%20Shipping%20and%20Ingestors.html
+  [19]: https://github.com/DefensiveOrigins/APT06202001/blob/master/Courseware/C0150%20-%20Purple%20Team%20and%20Lifecycle.pdf
+  [20]: https://github.com/DefensiveOrigins/APT06202001/raw/master/Courseware/C0150%20-%20Purple%20Team%20and%20Lifecycle.html
+  [21]: CourseInformation.md
+  [22]: Lab-Build-PreReq
+  [23]: Lab-DomainBuildScripts
+  [24]: Lab-GPOs
+  [25]: Lab-Sysmon
+  [26]: Lab-WEF-Palantir
+  [27]: Lab-WinLogBeat
