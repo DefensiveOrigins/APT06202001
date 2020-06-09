@@ -5,18 +5,18 @@ winlogbeat.event_logs:
   - name: System
 
   - name: Security
-    processors:
-      - script:
-          lang: javascript
-          id: security
-          file: ${path.home}/module/security/config/winlogbeat-security.js
+#    processors:
+#      - script:
+#          lang: javascript
+#          id: security
+#          file: ${path.home}/module/security/config/winlogbeat-security.js
 
   - name: Microsoft-Windows-Sysmon/Operational
-    processors:
-      - script:
-          lang: javascript
-          id: sysmon
-          file: ${path.home}/module/sysmon/config/winlogbeat-sysmon.js
+#    processors:
+#      - script:
+#          lang: javascript
+#          id: sysmon
+#          file: ${path.home}/module/sysmon/config/winlogbeat-sysmon.js
 
   - name: Microsoft-windows-PowerShell/Operational
     ignore_older: 30m
@@ -77,6 +77,17 @@ winlogbeat.event_logs:
   - name: WEC7-Terminal-Services
 
 #-------------------- Logstash output -------------------
-output.logstash:
+#output.logstash:
   # The Logstash hosts
-  hosts: ["10.10.98.20:5044"]
+#  hosts: ["10.10.98.20:5044"]
+
+#----------------------------- Kafka output --------------------------------
+output.kafka:
+  # initial brokers for reading cluster metadata
+  # Place your HELK IP(s) here (keep the port).
+  # If you only have one Kafka instance (default for HELK) then remove the 2nd IP that has port 9093
+  hosts: ["10.10.98.20:9092"]
+  topic: "winlogbeat"
+  ############################# HELK Optimizing Latency ######################
+  max_retries: 2
+  max_message_bytes: 1000000
