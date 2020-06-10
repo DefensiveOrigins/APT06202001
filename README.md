@@ -52,6 +52,11 @@ Upcoming BHIS & WWHF sponsored Training: https://wildwesthackinfest.com/online-t
 | [Lab-WEF-Palantir][26]                    | **This section will be covered in class.**<br>WEF configuration static repo for APT.  <br>Master: [palantir/windows-event-forwarding](https://github.com/palantir/windows-event-forwarding) |
 | [Lab-WinLogBeat][27]                     | **This section will be covered in class.**<br>WinLogBeat configuration file for lab. <br> Note: Due to licensing, it is not possible to include WinLogBeat in the APT repository.  Download WinLogBeat binaries here: [WinLogBeats](https://www.elastic.co/downloads/beats/winlogbeat) |
 
+# Community Provided Additional Configuration
+
+| Component                                | Information                              |
+|------------------------------------------|------------------------------------------|
+| [Lab-Template-Vagrant][28] | Vagrnat template provided by @ianblenke <br>NOTE: Defensive Origins has not tested this configuration.
 
 
 Copyright - All Rights Reserved, Defensive Origins LLC
@@ -83,3 +88,4 @@ Copyright - All Rights Reserved, Defensive Origins LLC
   [25]: Lab-Sysmon
   [26]: Lab-WEF-Palantir
   [27]: Lab-WinLogBeat
+  [28]: Lab-Template-Vagrant
