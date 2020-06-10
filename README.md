@@ -26,7 +26,7 @@ Upcoming BHIS & WWHF sponsored Training: https://wildwesthackinfest.com/online-t
 
 | Event                                    | Date                                   | Cost                                     | Registration                             |
 |------------------------------------------|----------------------------------------|------------------------------------------|------------------------------------------|
-| **Applied Purple Teaming**: Infrastructure, Threat Optics, and Continuous Improvement (4 hrs) <P>*[Self Hosted Labs Environment][1]* | Saturday June 6, 2020 <br>11AM-4PM EDT | **FREE!**<p>Sponsored by [BHIS][2] & [WWHF][3]| [Register][4]  <P> [Course Information][5] 
+| **Applied Purple Teaming**: Infrastructure, Threat Optics, and Continuous Improvement (4 hrs) <P>*[Self Hosted Labs Environment][1]* | Saturday June 6, 2020 <br>11AM-4PM EDT | **FREE!**<p>Sponsored by [BHIS][2] & [WWHF][3]|   <P> [Course Information][5] 
 | **Applied Purple Teaming**<br>Full three day course, 5.5 hrs per day.<P><br>**Defensive Origins Hosted Lab Environment** | June 30th - July 2nd 2020              | $395<p>Sponsored by [BHIS][6] & [WWHF][7] | [Register][8] <P>[Course Information][9]  |
 
 # Courseware
