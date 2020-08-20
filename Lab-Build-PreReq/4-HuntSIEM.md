@@ -35,7 +35,7 @@ Due to licensing restrictions we are unable to host the ISO or a OVA/OVF copy of
 ## Network
 * 10.10.98.20/24 (PFSense LAN Network)
 * DNS: 10.10.98.10
-* DNS2: 1.1.1.11
+* DNS2: 1.1.1.1
 
 ## OS Installation
 Install Ubuntu 18.04
